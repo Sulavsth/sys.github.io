@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>Bag Emporium - Your Stylish Bags</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +12,8 @@
         header {
             text-align: center;
             padding: 10px;
-            background-color: #f2f2f2;
+            background-color: #4285f4;
+            color: white;
         }
         main {
             padding: 20px;
@@ -22,24 +23,42 @@
             padding: 10px;
             background-color: #f2f2f2;
         }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Simple Website</h1>
+        <h1>Bag Emporium</h1>
     </header>
 
     <main>
-        <h2>About Us</h2>
-        <p>This is a basic example of a website. You can replace this content with your own information.</p>
+        <div class="product">
+            <img src="bag1.jpg" alt="Stylish Leather Bag">
+            <h2>Stylish Leather Bag</h2>
+            <p>Price: $49.99</p>
+            <p>Description: This elegant leather bag is perfect for any occasion. With multiple compartments, it's both stylish and practical.</p>
+            <button>Add to Cart</button>
+        </div>
 
-        <h2>Contact Us</h2>
-        <p>Email: info@example.com<br>
-        Phone: (123) 456-7890</p>
+        <div class="product">
+            <img src="bag2.jpg" alt="Casual Canvas Backpack">
+            <h2>Casual Canvas Backpack</h2>
+            <p>Price: $39.99</p>
+            <p>Description: A comfortable and spacious backpack made from durable canvas material. Ideal for daily use and travel.</p>
+            <button>Add to Cart</button>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Simple Website. All rights reserved.</p>
+        <p>&copy; 2024 Bag Emporium. All rights reserved.</p>
     </footer>
 </body>
 </html>
